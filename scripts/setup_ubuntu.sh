@@ -6,6 +6,7 @@ sudo apt-get update
 sudo apt-get -y install libgtk2.0-dev libavcodec-dev libavformat-dev libswscale-dev
 sudo apt-get -y install libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 sudo apt-get update
+sudo apt-get -y install libatlas-base-dev gfortran
 sudo apt-get -y install libssl-dev python-dev python-numpy
 sudo apt-get -y install python-pip
 sudo apt-get -y install mesa-utils
