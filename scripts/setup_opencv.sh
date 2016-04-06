@@ -6,11 +6,19 @@
 # 1) download opencv3 source
 # 2) download contrib source
 # 3) download extra for data
-# git clone ...
+git clone https://github.com/Itseez/opencv.git
+git clone https://github.com/Itseez/opencv_contrib.git
+git clone https://github.com/Itseez/opencv_extra.git
 
 # 4) copy contrib modules i.e. 'dataset', 'face', 'text', 'tracking' from contrib to opencv3/modules
-# 5) copy extra testdata to modules
+cp opencv_contrib/modules/tracking opencv/modules
+cp opencv_contrib/modules/face opencv/modules
+cp opencv_contrib/modules/text opencv/modules
+cp opencv_contrib/modules/datasets opencv/modules
 
+
+# 5) copy extra testdata to modules
+# cp opencv_extra/testdata/cv/tracking opencv/modules
 
 # opencv dependencies
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
