@@ -23,11 +23,21 @@ example usage,
 python plot_score_matrix.py data0.csv
 ```
 
-## trajLogger
-utility to plot frames correlatd to a spatio-temporal trajectory 
+## traj_logger
+utility to log a in-memory timestamped trajectory and image data stream to text and image files 
+
+timestamp trajectory format is,
+millisec  | x | y | w  | h  |
+--------- | - | - | -- | -- |
+10000.1   | 0 | 4 | 10 | 9  | 
+10000.2   | 0 | 1 | 11 | 11 |
+...       |.. |.. | .. | .. |
 
 example usage,
 ```
-python trajLogger.py
+python traj_logger.py
 ```
+this test generate a fake trajectory with fake image frames and then logs them to: 
+  * text file (test.traj.txt) 
+  * combined as well as individual jpg image files
 

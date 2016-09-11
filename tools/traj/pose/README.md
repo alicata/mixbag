@@ -16,6 +16,5 @@ tool to plot rotation matrices
 example usage,
 ```
 python plot_rot_mat.py
-
 ```
 
