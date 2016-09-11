@@ -10,7 +10,7 @@ timestamp | channel 1 | channel 2
 10000.2   | 23        | 10
 ...       | ..        | ..
 
-![plot_file_timestamped_data](https://github.com/alicata/mixbag/blob/master/tools/traj/img/img_plot_file_timestamped_data.png =200x200)
+![plot_file_timestamped_data](https://github.com/alicata/mixbag/blob/master/tools/traj/img/img_plot_file_timestamped_data.png)
 
 example usage,
 ```
@@ -20,7 +20,7 @@ python plot_file_timestamped_data.py data0.txt
 ## plot_score_matrix
 plot labeled 2d data matrix
 
-![plot_score_matrix](https://github.com/alicata/mixbag/blob/master/tools/traj/img/img_plot_score_matrix.png =200x200)
+![plot_score_matrix](https://github.com/alicata/mixbag/blob/master/tools/traj/img/img_plot_score_matrix.png) {:height="200px" width="200px"}
 
 example usage,
 ```
