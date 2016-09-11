@@ -19,7 +19,9 @@ python plot_file_timestamped_data.py data0.txt
 
 ## plot_score_matrix
 plot data matrix with row and column labels
+
 ![plot_score_matrix](https://github.com/alicata/mixbag/blob/master/tools/traj/img/img_plot_score_matrix.png)
+
 example usage,
 ```
 python plot_score_matrix.py data0.csv
