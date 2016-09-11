@@ -20,7 +20,7 @@ python plot_file_timestamped_data.py data0.txt
 ## plot_score_matrix
 plot labeled 2d data matrix
 
-![plot_score_matrix](https://github.com/alicata/mixbag/blob/master/tools/traj/img/img_plot_score_matrix.png) {:height="200px" width="200px"}
+![plot_score_matrix](https://github.com/alicata/mixbag/blob/master/tools/traj/img/img_plot_score_matrix.png)
 
 example usage,
 ```
