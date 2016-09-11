@@ -10,7 +10,7 @@ timestamp | channel 1 | channel 2
 10000.2   | 23        | 10
 ...       | ..        | ..
 
-![plot_file_timestamped_data](https://github.com/alicata/mixbag/raw/master/tools/traj/img/plot_file_timestamped_data.png)
+![plot_file_timestamped_data](https://github.com/alicata/mixbag/blob/master/tools/traj/img/img_plot_file_timestamped_data.png)
 
 example usage,
 ```
@@ -29,11 +29,12 @@ python plot_score_matrix.py data0.csv
 utility to log a in-memory timestamped trajectory and image data stream to text and image files 
 
 timestamp trajectory format is,
-millisec  | x  | y  | w  | h  |
---------- | -- | -- | -- | -- |
-10000.1   | 0  | 4  | 10 | 9  |
-10000.2   | 0  | 1  | 11 | 11 |
-...       | .. | .. | .. | .. |
+
+millisec  | x  | y  | w  | h  
+--------- | -- | -- | -- | -- 
+10000.1   | 0  | 4  | 10 | 9  
+10000.2   | 0  | 1  | 11 | 11 
+...       | .. | .. | .. | .. 
 
 example usage,
 ```
