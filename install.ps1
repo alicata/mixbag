@@ -8,3 +8,4 @@ echo "c:\tools\miniconda3"
 echo "c:\tools\miniconda3\scripts"
 
 choco install -y openssh
+choco install -y openvpn
